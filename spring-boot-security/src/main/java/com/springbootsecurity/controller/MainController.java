@@ -28,4 +28,14 @@ public class MainController {
         User user = userService.findByUsername(principal.getName());
         return "secured part of web service " + user.getUsername() + " " +user.getEmail();
     }
+
+    @GetMapping("/only_admin")
+    public String pageOnlyAdmins(){
+        return "admins page";
+    }
+
+    @GetMapping("/read_profile")
+    public String pageReadProfile(){
+        return "read profile page";
+    }
 }

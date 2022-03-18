@@ -23,6 +23,8 @@ public class WebSecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
         http.authorizeRequests()
                 .antMatchers("/authenticated/**").authenticated()
+                .antMatchers("only_admin/**").hasAnyRole("ADMIN")
+                .antMatchers("/read_profile/**").hasAuthority("READ_PROFILE")
                 .and()
                 .formLogin()
                 .and()
