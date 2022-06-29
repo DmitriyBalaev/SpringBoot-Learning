@@ -1,5 +1,7 @@
 package com.springbootjpa;
 
+import com.springbootjpa.QueryApp.User;
+import com.springbootjpa.QueryApp.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

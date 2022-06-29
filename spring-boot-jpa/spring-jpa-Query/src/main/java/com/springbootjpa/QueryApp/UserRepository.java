@@ -1,4 +1,5 @@
-package com.springbootjpa;
+package com.springbootjpa.QueryApp;
+
 
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;

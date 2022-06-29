@@ -1,4 +1,4 @@
-package com.springbootjpa;
+package com.springbootjpa.QueryApp;
 
 import javax.persistence.*;
 import java.util.Objects;
