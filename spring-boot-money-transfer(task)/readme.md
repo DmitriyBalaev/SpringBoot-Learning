@@ -6,3 +6,4 @@
 
 ---
 
+![Image alt](https://https://github.com/DmitriyBalaev/SpringBoot-Learning/blob/main/spring-boot-money-transfer(task)/picture/endPoint.png)
